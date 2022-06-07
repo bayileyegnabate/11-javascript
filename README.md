@@ -1,9 +1,11 @@
-## Overview of Project: Explain the purpose of this analysis.
+## Overview of Project: 
 - The main goal of this analysis is to include multiple criteria to filter the UFO sightings table in order to allow users be able to tailer their search.
 
-## Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
-- Now the UFO sightings webpage allows you to filter the sightings table using sighting date, city name, state, country and even the shape of the sighting. Tha t is a hugh convince for users. 
-- the screen shoots bellow show sample result of using multiple filters:
+## Results: 
+- Now the UFO sightings webpage allows you to filter the sightings table using date, city name, state, country and even the shape of the sighting. That is a huge convenience for users. 
+
+-The screen shoots bellow show sample results of using multiple filters:
+
 - **filtered by date**
 ![filtered by date](static/images/filter-by-date.png)
 
@@ -13,5 +15,6 @@
 - **filtered by city name**
 ![filtered by city name](static/images/filter-by-city-name.png)
 
-
-## Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
+## Summary:
+- The main drawback of this webpage is that, due to the large tabel size, it is not responsive on small screen sizes. Hence, interms of the design, a rework of the the lay out to make the data mobile friendly would be great. 
+- As far as the main data goes it would be nice to include sightings from different countries. How about including some footages/pics? 

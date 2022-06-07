@@ -31,8 +31,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<!-- article title -->
-				<div class="col-md-4">
-					<h3><span>UFO Sightings: Fact or Fancy?</span> <small>Ufologists Weight In</small></h3>
+				<div class="col-md-4 mt-5">
+					<h3 class="lead-title"><span>UFO Sightings: Fact or Fancy?</span> <small>Ufologists Weight In</small></h3>
 				</div>
 				<!-- lead paragraph -->
 				<div class="col-md-8">
@@ -58,7 +58,7 @@
 				<div class="col-md-3">
 					<form action="#" class="bg-dark" id="filter-form">
 						<div class="px-4">
-							<button id="refresh-btn" type="button" class="btn btn-outline-light btn-md px-4 mb-4">Refresh Table</button>
+							<button id="refresh-btn" type="button" class="btn btn-outline-light btn-md mb-4">Refresh Table</button>
 							<p class="text-secondary mb-0 h5">Filter Search</p>
 						</div>
 						
@@ -76,7 +76,8 @@
 							<!-- enter city -->
 							<li class="list-group-item bg-dark">
 								<label for="city">Enter City</label>
-								<input type="text" class="form-control" 
+								<input type="text" 
+									   class="form-control" 
 									   name="city" 
 									   placeholder="city name" 
 									   id="city" 
@@ -87,21 +88,37 @@
 							<!-- enter state -->
 							<li class="list-group-item bg-dark">
 								<label for="state">Enter State</label>
-								<input type="text" class="form-control" name="state" placeholder="state" id="state">
+								<input type="text" 
+									   class="form-control" 
+									   name="state" 
+									   placeholder="state" 
+									   id="state"
+									   onfocus="this.value=''"
+									   >
 							</li>
 							<!-- enter country -->
 							<li class="list-group-item bg-dark">
 								<label for="country">Enter Country</label>
-								<input type="text" class="form-control" name="country" placeholder="country" id="country">
+								<input type="text" 
+									   class="form-control" 
+									   name="country" 
+									   placeholder="country" 
+									   id="country"
+									   onfocus="this.value=''"
+									   >
 							</li>
 							<!-- enter shape -->
 							<li class="list-group-item bg-dark">
-								<label for="shape">Enter shape</label>
-								<input type="text" class="form-control" name="shape" placeholder="ufo shape" id="shape">
+								<label for="shape">Enter Shape</label>
+								<input type="text" 
+									   class="form-control" 
+									   name="shape" 
+									   placeholder="ufo shape" 
+									   id="shape"
+									   onfocus="this.value=''"   
+									   >
 							</li>
 						</ul>
-						<!-- button -->
-						<!-- <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button> -->
 				 	</form>
 				</div>
 				<div class="col-md-9">

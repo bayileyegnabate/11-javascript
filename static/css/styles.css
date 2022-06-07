@@ -21,14 +21,11 @@ body {
 	font-size: 2rem;
 }
 .logo,
+.lead-title,
 i.bi {
 	color: rgb(126, 226, 46);
+
 }
 
 .table {
-}
-
-input::placeholdr:onfocus {
-	color:  green;
-	font-size: 1.4em;
 }

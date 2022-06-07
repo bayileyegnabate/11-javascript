@@ -79,6 +79,7 @@ d3.selectAll("input").on("change", updateFilters);
 // Build the table when the page loads
 buildTable(tableData);
 
+// function to refresh table
 function refreshTable(){
   document.getElementById('filter-form').reset();
   filters = {};
