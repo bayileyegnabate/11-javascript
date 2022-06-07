@@ -4,7 +4,7 @@
 ## Results: 
 - Now the UFO sightings webpage allows you to filter the sightings table using date, city name, state, country and even the shape of the sighting. That is a huge convenience for users. 
 
--The screen shoots bellow show sample results of using multiple filters:
+- The screen shoots bellow show sample results of using multiple filters:
 
 - **filtered by date**
 ![filtered by date](static/images/filter-by-date.png)
